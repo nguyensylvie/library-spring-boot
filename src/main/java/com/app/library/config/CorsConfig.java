@@ -9,8 +9,11 @@ public class CorsConfig implements WebMvcConfigurer {
     @Override
     public void addCorsMappings(CorsRegistry registry) {
         registry.addMapping("/api/**")
-                .allowedOrigins("http://localhost:4200", "https://library-app-solutec.netlify.app/")
+                .allowedOrigins("http://localhost:4200", "https://library-app-solutec.netlify.app")
                 .allowedMethods("GET", "POST", "PUT", "DELETE")
-                .allowedHeaders("*");
+                .allowedHeaders("*")
+                .exposedHeaders("Access-Control-Allow-Origin")
+                .allowCredentials(true);
     }
 }
+
