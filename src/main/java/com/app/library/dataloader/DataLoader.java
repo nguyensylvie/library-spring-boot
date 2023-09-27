@@ -40,11 +40,26 @@
 //         Document document4 = new Document(null, "Bel–Ami", "Guy de Maupassant", Year.of(1885), true, LocalDate.now(), DocumentType.valueOf("BOOK"));
 //         documentRepository.save(document4);
 
-//         Document document5 = new Document(null, "L’Appel de la forêt", "Jack London", Year.of(1903), true, LocalDate.now(), DocumentType.valueOf("BOOK"));
+//         Document document5 = new Document(null, "Astérix", "Ren\u00E9 Goscinny", Year.of(1959), true, LocalDate.now(), DocumentType.valueOf("COMIC"));
 //         documentRepository.save(document5);
 
-//         Document document6 = new Document(null, "Des fleurs pour Algernon ", "Daniel Keyes", Year.of(1959), true, LocalDate.now(), DocumentType.valueOf("BOOK"));
+//         Document document6 = new Document(null, "Les Aventures de Tintin", "Hergé", Year.of(1929), true, LocalDate.now(), DocumentType.valueOf("COMIC"));
 //         documentRepository.save(document6);
+
+//         Document document7 = new Document(null, "L’Appel de la forêt", "Jack London", Year.of(1903), true, LocalDate.now(), DocumentType.valueOf("BOOK"));
+//         documentRepository.save(document7);
+
+//         Document document8 = new Document(null, "Des fleurs pour Algernon", "Daniel Keyes", Year.of(1959), true, LocalDate.now(), DocumentType.valueOf("BOOK"));
+//         documentRepository.save(document8);
+
+//         Document document9 = new Document(null, "Archives de l'Opéra de Paris", "Opéra national de Paris", Year.of(1980), true, LocalDate.now(), DocumentType.valueOf("ARCHIVE"));
+//         documentRepository.save(document9);
+
+//         Document document10 = new Document(null, "Archives", "Archive", Year.of(1960), true, LocalDate.now(), DocumentType.valueOf("ARCHIVE"));
+//         documentRepository.save(document10);
+
+//         Document document11 = new Document(null, "Le Petit Prince", "Antoine de Saint-Exupéry", Year.of(1943), true, LocalDate.now(), DocumentType.valueOf("NOVEL"));
+//         documentRepository.save(document11);
 
 //         Member member1 = new Member(null, "Marie", "Dubois", "10 rue de la paix", "31000", "Toulouse", LocalDate.of(2022, 9, 15));
 //         memberRepository.save(member1);
